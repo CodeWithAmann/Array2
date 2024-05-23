@@ -1,0 +1,38 @@
+1 Ans :-
+ The default value of an array in Java depends on the data type:
+
+For numeric data types (int, double, float, etc.), the default value is 0.
+For boolean, the default value is false.
+For char, the default value is '\u0000' (null character).
+For object references (like String), the default value is null.
+
+2 Ans :-
+ Yes, you can pass a negative number as the size of an array in Java. However, it will result in a negative array size exception at runtime.
+
+3 Ans :- Arrays in Java are stored in the heap memory of the JVM (Java Virtual Machine).
+
+4 Ans :- Disadvantages of arrays in Java include:
+
+Arrays have fixed sizes, so resizing requires creating a new array and copying elements.
+Arrays can only store elements of the same data type.
+Arrays do not provide built-in methods for common operations like adding or removing elements.
+
+5 Ans :-
+ An anonymous array in Java is an array without a name. It is typically created and used directly within a method or expression without assigning it to a variable. Here's an example:
+
+
+// Anonymous array example
+System.out.println("Sum of elements: " + Arrays.stream(new int[] {1, 2, 3, 4, 5}).sum());
+
+
+6 Ans :- Different ways to traverse an array in Java include:
+
+Using a for loop
+Using an enhanced for loop (for-each loop)
+Using Java Streams
+Using iterator (for arrays of objects)
+
+7 Ans :- The difference between length and length() method in Java:
+
+length: This is a property of arrays that returns the length or size of the array.
+length(): This is a method of the String class (not arrays) that returns the length of the string (number of characters).
